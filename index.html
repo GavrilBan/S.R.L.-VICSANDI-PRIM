@@ -1,46 +1,33 @@
-bash
-
-cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-<!-- ============================================================
-     Vicsandi-Prim | Cofetăria SERELE
-     GitHub Pages — index.html
-     Optimizat pentru SEO și Google Search
-============================================================ -->
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Vicsandi-Prim | Cofetăria SERELE – Prăjituri, Torturi & Dulciuri</title>
-<meta name="description" content="Vicsandi-Prim – Cofetăria SERELE. Torturi personalizate, prăjituri artizanale, bomboane și dulciuri tradiționale. Comandați online sau vizitați-ne!">
-<meta name="keywords" content="cofetărie, prăjituri, torturi, dulciuri, bomboane, Vicsandi-Prim, SERELE, cofetărie artizanală">
-<meta name="author" content="Vicsandi-Prim">
+<title>S.R.L. VICSANDI-PRIM – Prăjituri, Torturi & Dulciuri</title>
+<meta name="description" content="S.R.L. VICSANDI-PRIM. Torturi personalizate, prăjituri artizanale, bomboane și dulciuri tradiționale. Comandați online sau vizitați-ne!">
+<meta name="keywords" content="cofetărie, prăjituri, torturi, dulciuri, bomboane, SRL VICSANDI-PRIM, cofetărie artizanală">
+<meta name="author" content="S.R.L. VICSANDI-PRIM">
 <meta name="robots" content="index, follow">
 
-<!-- Open Graph -->
-<meta property="og:title" content="Vicsandi-Prim | Cofetăria SERELE">
+<meta property="og:title" content="S.R.L. VICSANDI-PRIM">
 <meta property="og:description" content="Dulciuri cu suflet, create cu pasiune. Torturi, prăjituri și bomboane artizanale.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://vicsandi-prim.github.io/vicsandi-prim">
 <meta property="og:image" content="https://vicsandi-prim.github.io/vicsandi-prim/og-image.jpg">
 <meta property="og:locale" content="ro_RO">
 
-<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Vicsandi-Prim | Cofetăria SERELE">
+<meta name="twitter:title" content="S.R.L. VICSANDI-PRIM">
 <meta name="twitter:description" content="Dulciuri cu suflet, create cu pasiune.">
 
-<!-- Canonical — înlocuiți USERNAME cu numele vostru GitHub -->
 <link rel="canonical" href="https://USERNAME.github.io/vicsandi-prim">
 
-<!-- Schema.org JSON-LD — ajută Google să înțeleagă afacerea -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Bakery",
-  "name": "Vicsandi-Prim — Cofetăria SERELE",
+  "name": "S.R.L. VICSANDI-PRIM",
   "description": "Cofetărie artizanală cu torturi personalizate, prăjituri și dulciuri tradiționale.",
   "address": {
     "@type": "PostalAddress",
@@ -54,16 +41,13 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
 }
 </script>
 
-<!-- Favicon emoji -->
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎂</text></svg>">
 
-<!-- Fonturi Google -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;500&family=Lato:wght@300;400&display=swap" rel="stylesheet">
 
 <style>
-  /* ===== VARIABILE ===== */
   :root {
     --alb: #FFFFFF;
     --crem: #FDF8F3;
@@ -89,7 +73,6 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
     -webkit-font-smoothing: antialiased;
   }
 
-  /* ===== NAVIGARE ===== */
   nav {
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -180,7 +163,6 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
     letter-spacing: 1px;
   }
 
-  /* ===== HERO ===== */
   #acasa {
     min-height: 100vh;
     display: flex;
@@ -302,7 +284,6 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
     transform: translateY(-2px);
   }
 
-  /* ===== SLIDER ===== */
   .hero-slider {
     position: relative;
     margin-top: 3rem;
@@ -346,14 +327,12 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
     to   { opacity: 1; transform: translateY(0); }
   }
 
-  /* ===== SECȚIUNI COMUNE ===== */
   section { padding: 5rem 2rem; }
   .section-header { text-align: center; margin-bottom: 3rem; }
   .section-tag { font-size: 0.7rem; letter-spacing: 4px; text-transform: uppercase; color: var(--auriu); margin-bottom: 0.8rem; display: block; }
   .section-title { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); color: var(--ciocolatiu); margin-bottom: 1rem; }
   .section-line { width: 60px; height: 2px; background: linear-gradient(to right, var(--roz), var(--auriu)); margin: 0 auto; }
 
-  /* ===== MENIU ===== */
   #meniu { background: var(--alb); }
   .meniu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; max-width: 1100px; margin: 0 auto; }
   .meniu-card { background: var(--crem); border-radius: 20px; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s; border: 1px solid var(--auriu-deschis); }
@@ -373,7 +352,6 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
   .meniu-card-items li { display: flex; justify-content: space-between; font-size: 0.88rem; color: var(--ciocolatiu); padding: 0.3rem 0; border-bottom: 1px dashed var(--auriu-deschis); }
   .meniu-card-items li span { color: var(--auriu); font-weight: 600; }
 
-  /* ===== GALERIE ===== */
   #galerie { background: var(--crem); }
   .galerie-grid { display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(2, 220px); gap: 1rem; max-width: 900px; margin: 0 auto; }
   .galerie-item { border-radius: 12px; overflow: hidden; display: flex; align-items: center; justify-content: center; font-size: 4rem; cursor: pointer; transition: transform 0.3s, box-shadow 0.3s; position: relative; }
@@ -386,7 +364,6 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
   .galerie-item .overlay { position: absolute; inset: 0; background: rgba(92,61,46,0.6); display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity 0.3s; font-size: 0.9rem; color: white; font-family: 'Cormorant Garamond', serif; letter-spacing: 2px; text-transform: uppercase; }
   .galerie-item:hover .overlay { opacity: 1; }
 
-  /* ===== DESPRE NOI ===== */
   #despre { background: var(--ciocolatiu); color: white; }
   #despre .section-title { color: var(--auriu-deschis); }
   #despre .section-tag { color: var(--roz); }
@@ -423,7 +400,6 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
   .recenzie-text { font-family: 'Cormorant Garamond', serif; font-size: 0.95rem; color: rgba(255,255,255,0.8); line-height: 1.6; font-style: italic; margin-bottom: 0.7rem; }
   .recenzie-autor { font-size: 0.75rem; color: var(--auriu); letter-spacing: 1px; text-transform: uppercase; }
 
-  /* ===== PROMOȚII ===== */
   #promotii { background: var(--alb); }
   .promotii-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem; max-width: 1000px; margin: 0 auto; }
   .promotie-card {
@@ -469,7 +445,6 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
     border-radius: 20px;
   }
 
-  /* ===== BLOG ===== */
   #blog { background: var(--crem); }
   .blog-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; max-width: 1000px; margin: 0 auto; }
   .blog-card {
@@ -489,7 +464,6 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
   .blog-titlu { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--ciocolatiu); margin-bottom: 0.5rem; }
   .blog-extras { font-size: 0.85rem; color: var(--gri); line-height: 1.6; }
 
-  /* ===== SOCIAL SHARE ===== */
   .social-share {
     display: flex;
     justify-content: center;
@@ -515,7 +489,6 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
   .social-btn-ig { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); color: white; }
   .social-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.2); }
 
-  /* ===== CONTACT ===== */
   #contact { background: var(--alb); }
   .contact-wrapper { display: grid; grid-template-columns: 1fr 1.2fr; gap: 4rem; max-width: 1000px; margin: 0 auto; }
   .contact-info h3 { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: var(--ciocolatiu); margin-bottom: 1.5rem; }
@@ -564,7 +537,6 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
     margin-top: 0.8rem;
   }
 
-  /* ===== FOOTER ===== */
   footer { background: #1a0e08; color: rgba(255,255,255,0.6); padding: 3rem 2rem 1.5rem; text-align: center; }
   .footer-logo { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--auriu); margin-bottom: 0.5rem; }
   .footer-tagline { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: rgba(255,255,255,0.4); margin-bottom: 2rem; }
@@ -574,12 +546,10 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
   .footer-divider { width: 40px; height: 1px; background: var(--auriu); margin: 0 auto 1.5rem; }
   .footer-copy { font-size: 0.75rem; color: rgba(255,255,255,0.25); }
 
-  /* ===== BACK TO TOP ===== */
   #backTop { position: fixed; bottom: 2rem; right: 2rem; width: 48px; height: 48px; background: var(--ciocolatiu); color: white; border: none; border-radius: 50%; font-size: 1.2rem; cursor: pointer; opacity: 0; pointer-events: none; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 20px rgba(92,61,46,0.4); transition: all 0.3s; z-index: 999; }
   #backTop:hover { background: var(--auriu); transform: translateY(-3px); }
   #backTop.visible { opacity: 1; pointer-events: auto; }
 
-  /* ===== RESPONSIVE ===== */
   @media (max-width: 900px) {
     .blog-grid { grid-template-columns: 1fr 1fr; }
   }
@@ -614,9 +584,8 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
 </head>
 <body>
 
-<!-- ===== NAVIGARE ===== -->
 <nav role="navigation" aria-label="Navigare principală">
-  <a href="#acasa" class="nav-logo" aria-label="Vicsandi-Prim – pagina principală">Vicsandi<span>-Prim</span></a>
+  <a href="#acasa" class="nav-logo" aria-label="S.R.L. VICSANDI-PRIM – pagina principală">S.R.L. <span>VICSANDI-PRIM</span></a>
   <ul class="nav-links">
     <li><a href="#acasa">Acasă</a></li>
     <li><a href="#meniu">Meniu</a></li>
@@ -631,7 +600,6 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
   </button>
 </nav>
 
-<!-- Meniu mobil -->
 <div class="nav-mobile" id="navMobile" role="navigation" aria-label="Meniu mobil">
   <ul>
     <li><a href="#acasa"    onclick="closeMobile()">Acasă</a></li>
@@ -644,16 +612,15 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
   </ul>
 </div>
 
-<!-- ===== HERO ===== -->
 <section id="acasa" aria-label="Pagina principală">
   <div class="hero-deco hero-deco-1" aria-hidden="true"></div>
   <div class="hero-deco hero-deco-2" aria-hidden="true"></div>
   <div class="hero-deco hero-deco-3" aria-hidden="true"></div>
   <div class="hero-content">
-    <div class="hero-tag">✦ Cofetăria SERELE ✦</div>
-    <h1 class="hero-title">Vicsandi<em>-Prim</em></h1>
+    <div class="hero-tag">✦ S.R.L. VICSANDI-PRIM ✦</div>
+    <h1 class="hero-title">S.R.L. <em>VICSANDI-PRIM</em></h1>
     <p class="hero-subtitle">Dulciuri cu suflet, create cu pasiune</p>
-    <p class="hero-desc">Bine ați venit la Vicsandi-Prim — locul unde fiecare prăjitură spune o poveste și fiecare îmbucătură aduce bucurie.</p>
+    <p class="hero-desc">Bine ați venit la S.R.L. VICSANDI-PRIM — locul unde fiecare prăjitură spune o poveste și fiecare îmbucătură aduce bucurie.</p>
     <div class="hero-btns">
       <a href="#meniu"   class="btn-primary">Explorează Meniul</a>
       <a href="#contact" class="btn-secondary">Comandă Acum</a>
@@ -676,7 +643,6 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
   </div>
 </section>
 
-<!-- ===== MENIU ===== -->
 <section id="meniu" aria-label="Meniu dulce">
   <div class="section-header">
     <span class="section-tag">✦ Produsele noastre ✦</span>
@@ -759,7 +725,6 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
   </div>
 </section>
 
-<!-- ===== GALERIE ===== -->
 <section id="galerie" aria-label="Galerie foto produse">
   <div class="section-header">
     <span class="section-tag">✦ Creațiile noastre ✦</span>
@@ -775,18 +740,17 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
   </div>
 </section>
 
-<!-- ===== DESPRE NOI ===== -->
-<section id="despre" aria-label="Despre cofetăria Vicsandi-Prim">
+<section id="despre" aria-label="Despre S.R.L. VICSANDI-PRIM">
   <div class="section-header">
     <span class="section-tag">✦ Povestea noastră ✦</span>
-    <h2 class="section-title">Despre Vicsandi-Prim</h2>
+    <h2 class="section-title">Despre S.R.L. VICSANDI-PRIM</h2>
     <div class="section-line" aria-hidden="true"></div>
   </div>
   <div class="despre-content">
     <div class="despre-text">
       <div class="despre-istoric">
         <h4>✦ Istoricul cofetăriei</h4>
-        <p>Cofetăria <strong style="color:var(--auriu)">SERELE</strong> a luat naștere în urmă cu peste 5 ani, dintr-o pasiune autentică pentru arta cofetăriei. Fondată de o echipă de profesioniști cu suflet, cofetăria și-a câștigat rapid renumele prin calitatea și creativitatea produselor sale.</p>
+        <p>S.R.L. <strong style="color:var(--auriu)">VICSANDI-PRIM</strong> a luat naștere în urmă cu peste 5 ani, dintr-o pasiune autentică pentru arta cofetăriei. Fondată de o echipă de profesioniști cu suflet, cofetăria și-a câștigat rapid renumele prin calitatea și creativitatea produselor sale.</p>
         <p>De-a lungul anilor, am crescut continuu — de la un mic atelier de familie la un loc de referință pentru dulciuri artizanale, iubit de sute de clienți fideli.</p>
       </div>
       <p style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:rgba(255,255,255,0.85);margin-bottom:1rem;">Misiunea noastră este simplă: să aducem bucurie prin dulciuri care îmbină tradiția cu creativitatea modernă.</p>
@@ -833,7 +797,6 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
   </div>
 </section>
 
-<!-- ===== PROMOȚII ===== -->
 <section id="promotii" aria-label="Promoții și oferte speciale">
   <div class="section-header">
     <span class="section-tag">✦ Oferte limitate ✦</span>
@@ -880,7 +843,6 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
   </div>
 </section>
 
-<!-- ===== BLOG ===== -->
 <section id="blog" aria-label="Blog cofetărie – rețete și povești dulci">
   <div class="section-header">
     <span class="section-tag">✦ Povești dulci ✦</span>
@@ -909,13 +871,12 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
       <div class="blog-body">
         <div class="blog-data">20 Aprilie 2025</div>
         <h3 class="blog-titlu">De ce Alegem Ciocolata Belgiană</h3>
-        <p class="blog-extras">Ciocolata belgiană — ingredientul care face diferența în bomboanele și trufele artizanale Vicsandi-Prim.</p>
+        <p class="blog-extras">Ciocolata belgiană — ingredientul care face diferența în bomboanele și trufele artizanale S.R.L. VICSANDI-PRIM.</p>
       </div>
     </article>
   </div>
 </section>
 
-<!-- ===== CONTACT ===== -->
 <section id="contact" aria-label="Contact și comandă online">
   <div class="section-header">
     <span class="section-tag">✦ Ajungeți la noi ✦</span>
@@ -927,15 +888,15 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
       <h3>Informații de contact</h3>
       <div class="contact-item">
         <div class="contact-icon" aria-hidden="true">📍</div>
-        <div class="contact-text"><strong>Adresă</strong><span>R. Donduseni St. Târnova</span></div>
+        <div class="contact-text"><strong>Adresă</strong><span>str. Kamarov 18</span></div>
       </div>
       <div class="contact-item">
         <div class="contact-icon" aria-hidden="true">📞</div>
-        <div class="contact-text"><strong>Telefon</strong><span><a href="tel:+373000000000" style="color:var(--ciocolatiu);text-decoration:none;">+373 XXX-XXX-XXX</a></span></div>
+        <div class="contact-text"><strong>Telefon</strong><span><a href="tel:+37367554400" style="color:var(--ciocolatiu);text-decoration:none;">+373 67554400</a></span></div>
       </div>
       <div class="contact-item">
         <div class="contact-icon" aria-hidden="true">✉️</div>
-        <div class="contact-text"><strong>Email</strong><span><a href="mailto:contact@vicsandi-prim.ro" style="color:var(--ciocolatiu);text-decoration:none;">contact@vicsandi-prim.ro</a></span></div>
+        <div class="contact-text"><strong>Email</strong><span><a href="mailto:chiperivictor080@gmail.com" style="color:var(--ciocolatiu);text-decoration:none;">chiperivictor080@gmail.com</a></span></div>
       </div>
       <div class="contact-item">
         <div class="contact-icon" aria-hidden="true">🕐</div>
@@ -944,9 +905,9 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
       <div class="ssl-badge" aria-label="Conexiune securizată HTTPS">
         🔒 Conexiune securizată HTTPS (SSL)
       </div>
-      <div class="harta" role="img" aria-label="Hartă locație cofetăria SERELE">
+      <div class="harta" role="img" aria-label="Hartă locație S.R.L. VICSANDI-PRIM">
         🗺️
-        <div class="harta-label">Cofetăria SERELE — Vicsandi-Prim</div>
+        <div class="harta-label">S.R.L. VICSANDI-PRIM</div>
       </div>
     </div>
     <div>
@@ -958,7 +919,7 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
           </div>
           <div class="form-group">
             <label for="inp-tel">Telefon</label>
-            <input id="inp-tel" type="tel" name="telefon" placeholder="+373 XXX-XXX-XXX" autocomplete="tel" required>
+            <input id="inp-tel" type="tel" name="telefon" placeholder="+373 XXX-XXX-XX" autocomplete="tel" required>
           </div>
         </div>
         <div class="form-group">
@@ -996,18 +957,17 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
   </div>
 </section>
 
-<!-- ===== FOOTER ===== -->
 <footer role="contentinfo">
-  <div class="footer-logo">Vicsandi-Prim</div>
-  <div class="footer-tagline">Cofetăria SERELE — Dulciuri cu suflet</div>
+  <div class="footer-logo">S.R.L. VICSANDI-PRIM</div>
+  <div class="footer-tagline">S.R.L. VICSANDI-PRIM — Dulciuri cu suflet</div>
   <div style="display:flex;justify-content:center;gap:1rem;margin-bottom:1.5rem;">
     <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
        style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:1.4rem;transition:color 0.3s;"
-       aria-label="Facebook Vicsandi-Prim"
+       aria-label="Facebook S.R.L. VICSANDI-PRIM"
        onmouseover="this.style.color='#1877F2'" onmouseout="this.style.color='rgba(255,255,255,0.5)'">📘</a>
     <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
        style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:1.4rem;transition:color 0.3s;"
-       aria-label="Instagram Vicsandi-Prim"
+       aria-label="Instagram S.R.L. VICSANDI-PRIM"
        onmouseover="this.style.color='#E1306C'" onmouseout="this.style.color='rgba(255,255,255,0.5)'">📷</a>
   </div>
   <ul class="footer-links" aria-label="Linkuri rapide">
@@ -1021,13 +981,12 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
   </ul>
   <div class="footer-divider" aria-hidden="true"></div>
   <div style="font-size:0.72rem;color:rgba(255,255,255,0.3);margin-bottom:0.5rem;">🔒 Site securizat cu SSL/HTTPS</div>
-  <div class="footer-copy">© 2025 Vicsandi-Prim · Cofetăria SERELE · Toate drepturile rezervate</div>
+  <div class="footer-copy">© 2025 S.R.L. VICSANDI-PRIM · Toate drepturile rezervate</div>
 </footer>
 
 <button id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Înapoi sus">↑</button>
 
 <script>
-  /* ===== NAVIGARE ===== */
   window.addEventListener('scroll', () => {
     document.getElementById('backTop').classList.toggle('visible', window.scrollY > 400);
   });
@@ -1043,7 +1002,6 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
     this.setAttribute('aria-expanded', String(open));
   });
 
-  /* ===== FORMULAR ===== */
   function submitForm() {
     const captcha = document.getElementById('captcha-check');
     if (captcha && !captcha.checked) {
@@ -1061,7 +1019,6 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
     document.getElementById('formSuccess').style.display = 'block';
   }
 
-  /* ===== SLIDER ===== */
   (function () {
     const track  = document.getElementById('sliderTrack');
     const dotsEl = document.getElementById('sliderDots');
@@ -1098,7 +1055,6 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
     });
   })();
 
-  /* ===== ANIMAȚII SCROLL ===== */
   const revealObs = new IntersectionObserver((entries) => {
     entries.forEach(e => {
       if (e.isIntersecting) {
@@ -1119,7 +1075,6 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
     revealObs.observe(el);
   });
 
-  /* ===== CONTOR STATISTICI ===== */
   function animateCounters() {
     document.querySelectorAll('.stat-number').forEach(el => {
       const target = parseInt(el.textContent.replace(/\D/g, ''), 10);
@@ -1142,4 +1097,6 @@ cat > /home/claude/vicsandi-prim/index.html << 'HTMLEOF'
     }, { threshold: 0.3 });
     statsObs.observe(statsSection);
   }
-
+</script>
+</body>
+</html>
